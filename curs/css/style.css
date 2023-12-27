@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	background-color: #acb5c5;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.navbar {
+	background-color: white;
+	padding: 0;
+}
+.navbar-brand {
+	width: 9%;
+	height: 100%;
+	padding: 0px 0px 70px 0px;
+	overflow: hidden;
+	position: relative;
+}
+.navbar-brand img {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.navbar-nav {
+	margin-right: 20px!important;
+}
+.nav-link {
+	color: #777777;
+}
+.navbar-collapse {
+	justify-content: space-between;
+}
+.breadcrumbmain {
+	margin-left: 4%;
+}
+.breadcrumb a {
+	text-decoration: none;
+	color: #871919;
+}
+.btn-outline-success {
+    --bs-btn-color: #871919;
+    --bs-btn-border-color: #871919;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #e12424;
+    --bs-btn-hover-border-color: #e12424;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ff1313;
+    --bs-btn-active-border-color: #ff1313;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #d91d1d;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #e32020;
+    --bs-gradient: none;
+    }
+.navbar-nav {
+    --bs-nav-link-hover-color: red;
+}
+
+.titl {
+	margin-left: 4%;
+	background-color: red;
+	max-width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	color: white;
+}
+.redfind {
+	width: 70%;
+	height: 80px;
+	background-color: #c0f9df;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.datas {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	text-align: center;
+}
+.blanket {
+	background-color: #e2e2e2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.maincardfu {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card {
+	margin: 10px;
+}
+.footer {
+	padding: 50px;
+	width: 100%;
+	background-color: #464a53;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footlist {
+	list-style: none;
+}
+.footlist li{
+	margin-top: 15px;
+	color: #a3a3a3;
+}
+.footlist li a{
+	text-decoration: none;
+	color: #a3a3a3;
+}
+.footerlist h5{
+	margin-left: 30px;
+}
+.footerlist {
+	margin-left: 50px;
+}
+.cardnfo {
+	margin-top: 25px;
+}
+.card-link {
+	text-decoration: none;
+}
+.cardend {
+	min-width: 0;
+	align-self: flex-end;
+	margin-top: 15px;
+}
+.card-link {
+	align-self: flex-end;
+}
+.serv {
+	padding: 0;
+}
+.card-body {
+	display: flex;
+	flex-wrap: wrap;
+}
+.sale {
+	display: flex;
+	flex-direction: column;
+}
+.sale a {
+	text-decoration: none;
+	padding: 15px;
+	font-weight: bolder;
+	color: black;
+}
+.sale a:hover {
+	background-color: red;
+	color: white;
+}
+.card-title {
+	padding: 15px;
+}
+.secocar {
+	background-color: #767d89;
+	color: white;
+}
+.secocar p {
+	opacity: 60%;
+}
+.secocar a {
+	text-decoration: none;
+	color: white;
+}
+.seco {
+	margin-top: 30px;
+}
+.thir .cardend {
+	display: flex;
+}
+.thir .card-text {
+	font-weight: bolder;
+}
+.thir .card-link {
+	opacity: 60%;
+}
+.newss {
+	margin-left: 15%;
+	margin-top: 30px;
+}
+.carousel-inner {
+	height: 500px!important;
+}
+.carousel {
+	margin-bottom: 20px;
+}
+.imgbox {
+	width: 100%;
+	padding: 0px 0px 500px 0px;
+	overflow: hidden;
+	position: relative;
+}
+.imgbox img {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+@media (max-width: 700px) {
+	.blanket {
+		width: 100%;
+	}
+}
+@media (max-width: 991px) {
+	nav form {
+	margin-bottom: 20px;
+	}
+	.nav-link {
+		width: auto!important;
+	}
+}
+@media (max-width: 900px) {
+    .container, .container-sm {
+        max-width: 100%;
+    }
+    .carousel-inner {
+    	height: 278px!important;
+    }
+    .imgbox {
+    	padding: 0px 0px 332px 0px;
+    }
+}
+@media (max-width: 680px) {
+	.card {
+		width: 100%!important;
+	}
+	.navbar-brand {
+		width: 20%;
+	}
+}
+@media (max-width: 1198px) {
+	.nav-link {
+		width: 120px;
+	}
+}
